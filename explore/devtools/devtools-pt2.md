@@ -1,0 +1,2 @@
+1. The input value takes in text value, which is in string data type. The `+` operator thus indeed concatenate the two strings.
+2. This bug can be fixed by converting the `num1` and `num2` in `calculateSum()` into number, which can be done by calling `parseInt()`. ![fix bug](fix.png)
