@@ -26,7 +26,7 @@
     D. `student["Favorite Teacher"].name` \
     E. `student.courseLoad[0]`
 
-13. A. '35' since integers map to their exact string representation. \
+13. A. '32' since integers map to their exact string representation. \
     B.  1 since string maps to as it is. \
     C.  3 since null coerce to 0. \
     D.  '3null' since null map to string. \

@@ -5,6 +5,8 @@ function printTime(){
 }
 
 const intervalID = setInterval(printTime, 1000);
-setTimeout(function() {
-    clearInterval(intervalID);
-}, 60 * 1000);
+
+// setTimeout so that it terminates after 1 minute.
+// setTimeout(function() {
+//     clearInterval(intervalID);
+// }, 60 * 1000);
